@@ -1,16 +1,21 @@
-# This is a sample Python script.
+import sys
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Zad 1. Napisz skrypt, który pobiera od użytkownika zdanie i liczy ilość słów. Użyj funkcji input
 
+Zdanie = input("Podaj zdanie:")
+IloscSlow = len(Zdanie.split())
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print("Ilosc slow w zdanie:", IloscSlow)
 
+# Zad 2. Napisz skrypt gdzie pobierzesz trzy liczby całkowite, gdzie wykonasz obliczenia: ab + c.  Użyj funkcji readline() i write()).
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':git
-    print_hi('PyCharm')
+sys.stdout.write("Podaj 1 liczbe: ")
+a = int(sys.stdin.readline())
+sys.stdout.write("Podaj 2 liczbe: ")
+b = int(sys.stdin.readline())
+sys.stdout.write("Podaj 3 liczbe: ")
+c = int(sys.stdin.readline())
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+wynik = a * b + c
+
+sys.stdout.write(f"Wynik: {wynik}")
