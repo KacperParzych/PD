@@ -42,15 +42,3 @@ if pierwsza(liczba):
 else:
     print("Nie pierwsza")
 breakpoint()
-# Zad 5. Napisz skrypt, który sprawdzi ile jest liczb doskonałych do liczby 1000.
-
-
- def superliczba():
-
-# Zad 6. Napisz skrypt, gdzie stworzysz listę składającą się z liczb typu int i float. Następnie za pomocą użycia pętli for podnieś każdą liczbę do kwadratu.
-
-
-# Zad 7. Napisz skrypt, który za pomocą pętli while pobiera 10 liczb, następnie dodaje do listy tylko parzyste liczby.
-
-
-# Zad 8. Napisz skrypt, w którym utworzysz listę z elementami dowolnego typu. Utwórz słownik, gdzie klucze będą poszczególnymi elementami z listy, a wartość to ilość wystąpień klucza w liście. Następnie usuń wszystkie elementy ze słownika, które nie będą liczbami.
