@@ -42,3 +42,4 @@ if pierwsza(liczba):
 else:
     print("Nie pierwsza")
 breakpoint()
+ss
